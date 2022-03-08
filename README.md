@@ -5,7 +5,7 @@ This repo is based on the tutorial of HashiCorp Learning
 
 https://learn.hashicorp.com/tutorials/terraform/move-config#move-your-resources-with-the-moved-configuration-block
 
-You will move resources after creation to a module. You will not use the terraform state mv command but the new move block with terraform >1.1.0
+You will create some resources without modules. After that will move some resources into modules. You will not use the ```terraform state mv``` command but the new block ```moved``` with terraform >1.1.0
 
 # How to
 
